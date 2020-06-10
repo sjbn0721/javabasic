@@ -19,6 +19,6 @@ public class Player {
 		return this.record;
 	}
 	public void printStates(){
-		System.out.println(getName()+" ´ÔÀÇ ±â·ÏÀº "+getRecord()+"ÃÊ ÀÔ´Ï´Ù.");
+		System.out.println(getName()+" ë‹˜ì˜ ê¸°ë¡ì€ "+getRecord()+" ì´ˆ ì…ë‹ˆë‹¤.");
 	}	
 }

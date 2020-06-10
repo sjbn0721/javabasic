@@ -1,8 +1,5 @@
 package race;
-
 import java.util.Scanner;
-
-import javax.sound.midi.Soundbank;
 
 public class PlayerApp {
 	public static void main(String[] args) {
@@ -11,9 +8,9 @@ public class PlayerApp {
 		
 		for (int i = 0; i < players.length; i++) {
 			Player player = new Player();
-			System.out.println("¼±¼ö : ");
+			System.out.println("ì´ë¦„ì€ : ");
 			player.setName(scanner.next());
-			System.out.println("100m ±â·Ï : ");
+			System.out.println("100m ë¦¬ë¡ì€ : ");
 			player.setRecord(scanner.nextInt());
 			players[i]=player;
 		}
@@ -42,10 +39,10 @@ public class PlayerApp {
 }
 /**
 		System.out.println(players[0].getName()
-					+"ÀÌ"
-					+players[1].getName()+"º¸´Ù ºü¸£´Ù"); 
+					+"ï¿½ï¿½"
+					+players[1].getName()+"ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"); 
 					
 		System.out.println(players[1].getName()
-					+"°¡ "+players[0].getName()+"º¸´Ù ºü¸£´Ù");
+					+"ï¿½ï¿½ "+players[0].getName()+"ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 * */
  
